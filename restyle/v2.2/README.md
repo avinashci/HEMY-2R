@@ -165,3 +165,7 @@ Recessed side plates A and B and the **recessed counterweight far wall** only. T
 - Dovetail face ≈ 0.10 m from the RA axis (102 mm in CAD), same as the Proxisky formula W × 9.8 × (0.1 + D) (Ragdoll 17 Pro limit < 40 N·m, 13 kg no CW / 20 kg with CW).
 - FRA300 Pro rig ≈ 4.5–4.8 kg, D ≈ 0.07 m → ≈ 7.5–8 N·m without CW (≈ 25% of rated). Weigh the real rig when built.
 - Commissioning: PHD2 Guiding Assistant raw RA PE test (guiding off, ~30 min near the equator) = our "PE report"; DEC backlash comp via Guiding Assistant.
+
+### Decided 2026-11-12: no change for now
+- Square 80 × 80 flange and the reducers' current half-embedded positions stay. **Round (Ø84 neck) vs square: decide when the LA-40B arrives**, with its real top plate. Known issues for round: the corner M5s (r ≈ 47) fall outside a Ø84 neck and moving them inward hits the LA-40B recess; two 10 A jacks + LEDs need a ~66 mm flat face, a Ø84 neck gives ~36 mm at full jack depth.
+- LA-40 (narrow top bar, one row of holes) vs LA-40B (square top plate, 2-D M6 grid): LA-40B is the better base for the 80 × 80 flange.
