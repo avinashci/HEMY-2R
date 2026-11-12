@@ -169,3 +169,9 @@ Recessed side plates A and B and the **recessed counterweight far wall** only. T
 ### Decided 2026-11-12: no change for now
 - Square 80 × 80 flange and the reducers' current half-embedded positions stay. **Round (Ø84 neck) vs square: decide when the LA-40B arrives**, with its real top plate. Known issues for round: the corner M5s (r ≈ 47) fall outside a Ø84 neck and moving them inward hits the LA-40B recess; two 10 A jacks + LEDs need a ~66 mm flat face, a Ø84 neck gives ~36 mm at full jack depth.
 - LA-40 (narrow top bar, one row of holes) vs LA-40B (square top plate, 2-D M6 grid): LA-40B is the better base for the 80 × 80 flange.
+
+### Dovetail clamp: final direction (2026-11-12), supersedes the brass block concept
+- **Keep polvinc's mechanism and saddle as is** (no rectangular pockets). Only change: his jaws (claws) made in **brass** instead of aluminium, same geometry. Retained push-claw saddles were considered; no spare claw + knob sets found, dropped.
+- polvinc's clamp: the M6 screw passes through the jaw (Ø6.4 clearance), crosses under the groove and threads into the saddle body: Ø5.2 tap drill from Y 25.5 to Y 6 (+ drill tip), knob X −88.5. Thread engagement ≈ 14.5 mm. Tightening pulls the knob face against the jaw's outer face (Y 51).
+- **Knob: M6 × 40 mm stainless 3-lobe "plum" clamping knob** (AliExpress, MiaoZheng Photography Store, ~$4.34). 40 mm is exactly polvinc's: knob face Y 51 to tip Y 11 leaves ≈ 5 mm before the hole bottom. **Don't use 45 mm** (bottoms out). **Knob head Ø ≤ 32 mm**: the knob axis is 17 mm from the saddle's back face plane; polvinc's Ø32.6 star clears the body face (X −71.2) by ~1 mm when DEC turns, so a bigger head hits the body.
+- `parts/concepts/` brass block files are now reference only.
