@@ -47,10 +47,11 @@ print('old RA label removed:',st.RemoveShape(ra_ref,True))
 make_part('RA drive (reducer, motor, belt)',keep,[colour_of(s) for s in keep])
 def rd(f):
     s=TopoDS_Shape(); BRepTools.Read_s(s,f,BRep_Builder()); return s
-fl=solids(rd('flange80.brep'))[0]
-make_part('BASE flange v2.2 80x80 (10 A jacks + home mark on side B; LA-40B plate ASSUMED)',[fl],whole=Quantity_Color(0.80,0.82,0.85,Quantity_TypeOfColor.Quantity_TOC_RGB))
-ph=load("/mnt/user-data/uploads/HEMY/restyle/base-concept/PLACEHOLDER - LA-40B top plate (assumed 60x60x10).step")
-t=gp_Trsf(); t.SetTranslation(gp_Vec(-6,0,0)); ph=BRepBuilderAPI_Transform(ph,t,True).Shape()
+fl=solids(rd('flange_v22b.brep'))[0]
+make_part('BASE flange v2.2 80x80 (flat bottom, 4 x M5 corner threads; 10 A jacks + home mark on side B)',[fl],whole=Quantity_Color(0.80,0.82,0.85,Quantity_TypeOfColor.Quantity_TOC_RGB))
+ph=rd('placeholder_v22b.brep')
+pl=solids(rd('plate_v22.brep'))[0]
+make_part('BASE plate v2.2 80x80 (countersunk M6 into the LA-40B corner threads; LA-40B plate recess ASSUMED)',[pl],whole=Quantity_Color(0.74,0.77,0.80,Quantity_TypeOfColor.Quantity_TOC_RGB))
 make_part('PLACEHOLDER LA-40B top plate (assumed 60 x 60 x 10, measure the real one)',solids(ph),whole=Quantity_Color(0.85,0.25,0.25,Quantity_TypeOfColor.Quantity_TOC_RGB))
 # stock A11 + Vixen saddle + DC jack dropped (replaced by the base flange)
 st.UpdateAssemblies()
@@ -59,5 +60,5 @@ w=STEPCAFControl_Writer(); w.SetNameMode(True); w.SetColorMode(True)
 w.Transfer(doc,STEPControl_AsIs); print('write',w.Write(sys.argv[2]))
 # standalone part files (assembly coordinates)
 from OCP.STEPControl import STEPControl_Writer
-for shp,fn in ((fl,sys.argv[3]),(ph,sys.argv[4])):
+for shp,fn in ((fl,sys.argv[3]),(ph,sys.argv[4]),(pl,sys.argv[5])):
     ww=STEPControl_Writer(); ww.Transfer(shp,STEPControl_AsIs); print(fn,ww.Write(fn))
