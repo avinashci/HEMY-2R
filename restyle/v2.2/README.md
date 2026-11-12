@@ -41,7 +41,6 @@ Current design (as of 2026-11-07). A HEMY v2 harmonic mount in a 125 mm cube she
 | stock_hemy_parts 10 Motor support | 2 | Unchanged. |
 | stock_hemy_parts 11 Dovetail fix clamp | 2 | Unchanged. |
 | **HEMY2R - Base flange v2.2 80x80 (LA-40B plate ASSUMED)** | 1 | 80 × 80 × 22 mm, ~259 g; side B jacks are **tapped M12 (pitch to confirm, likely M12 × 1)**, needs the thread drawing; replaces the A11 flange and the Vixen saddle (section 3). Bolts to the RA reducer output with the same 12 × M3 as A11 and sits directly on the LA-40B top plate. Recess and M6 positions wait for the measured plate. |
-| stock_hemy_parts 12 Output flange A11 | 0 | Superseded by the base flange; not in the assembly. Files kept in `stock_hemy_parts/` for reference only. |
 | stock_hemy_parts 13 SWB-003 shaft coupling | 1 | **Needed**: the 5 × 40 brake shaft has a 4.5 mm flat (hardened, not filed); the brake's own coupling needs 4.0. |
 
 Finish: bead blast + regular anodize, natural/silver, matte. Order note: **break all sharp edges 0.3 mm**.
