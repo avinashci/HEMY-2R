@@ -146,3 +146,7 @@ Not for this build. Full notes in the claude.ai project doc **"HEMY v3 Base Idea
 ## Credits
 - **HEMY** harmonic mount by **polvinc**: <https://github.com/polvinc/HEMY>, GPL-3.0. HEMY 2R keeps his mechanism and electronics; only the shell and frame are restyled. Any shared files from this restyle go out under GPL-3.0 with this credit.
 - **HEMY 2R** restyle by Avinash C. Indirabai, with design work, CAD scripts and checks done together with Claude (Anthropic).
+
+### Base: notes from 2026-11-11 (check when the LA-40B and reducer arrive)
+- **Plate–flange screws: 4 × M5 corners are enough** (≈20 kN clamp vs ≈0.2 kN tipping pull; friction ≈150–200 N·m vs a few tens of N·m RA reaction). Optional: 4 more mid-edge at 33 mm from the axis. Flange has ≈5 mm walls there, but the plate's Ø9 counterbores break into the 60.2 mm LA-40B recess (assumed). Revisit with the real LA-40B plate size (it is NOT 60 × 60): mid-edge holes fit if its plate is ≤ ~54 mm.
+- **Jack lead slots: keep the two separate slots.** Wires are static in the flange (no slack needed here; RA slack lives above the reducer). Only 1.5 mm of floor between the slot ceiling (Z −19) and the reducer pocket (Z −17.5); the solid wedge between the slots ribs that floor. Merging would leave a ~30 mm wide 1.5 mm skin. Check: make the slots shallower to thicken that floor.
