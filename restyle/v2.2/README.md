@@ -152,3 +152,10 @@ Not for this build. Full notes in the claude.ai project doc **"HEMY v3 Base Idea
 
 ### Panels chosen (2026-11-11)
 Recessed side plates A and B and the **recessed counterweight far wall** only. The flat panels, the plain far walls and the old all-variants assembly are moved to `_archive/` (not in git; also in `_snapshots/2026-11-11_v2.2_cad.zip`). Bring them back from there if needed.
+
+### Dovetail clamp redesign: brass block jaws (agreed 2026-11-11)
+- polvinc's saddle is already dual Vixen + Losmandy (stepped fixed lips + stepped jaws). Kept the groove profile; changed only the clamp hardware.
+- **Jaws:** rectangular blocks in square pockets open to the top face (jaw tops form the lips), polvinc's exact stepped clamping faces, ~100 g each in brass. Concept: `parts/concepts/`, render `docs/dovetail_brass_jaw_concept.png`.
+- **Knobs:** bought M6 knurled stainless thumb screws, ~Ø18 × 22 head with a short neck (≈25 mm proud vs ≈60 mm for the stars), on polvinc's screw axis (X −88.5).
+- **Cost plan:** JLCCNC quote the jaws in **both brass and gold/bronze-anodised aluminium**; decide on the real difference. Brass jaws can come in a later order, since the saddle pockets are the same either way.
+- To do when finalising (with the reducer screw re-layout): pocket corner radii + matching jaw radii, blind pin holes (not through), decide whether to centre the knob on the jaw (moves the thread), remove polvinc's knobs/jaws from the DOVETAIL group.
