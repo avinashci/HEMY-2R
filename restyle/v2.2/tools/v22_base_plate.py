@@ -34,11 +34,11 @@ for s in (-1,1):
     x0,x1=sorted((s*10.0,s*28.0)); cuts.append(vertical_fillets(boxr(x0,x1,22.0,35.0,-17.6,-12.5),1.5,lambda b:True))
     cuts.append(cylr(s*XJ,34.0,ZJ,5.5,6.2,(0,1,0)))                              # M12 tapped (Ø11 tap drill), 5 mm wall
     cuts.append(cylr(s*XL,34.0,ZJ,1.55,6.2,(0,1,0)))                             # LED Ø3.1
-    a=(s*12.5,23.0); b2=(s*5.6,11.6); dx,dy=b2[0]-a[0],b2[1]-a[1]; L=math.hypot(dx,dy); nx,ny=-dy/L*3,dx/L*3
+    a=(s*16.0,23.5); b2=(s*5.6,11.6); dx,dy=b2[0]-a[0],b2[1]-a[1]; L=math.hypot(dx,dy); nx,ny=-dy/L*3,dx/L*3
     cuts.append(prism([(X0+a[0]+nx,a[1]+ny,ZB),(X0+b2[0]+nx,b2[1]+ny,ZB),(X0+b2[0]-nx,b2[1]-ny,ZB),(X0+a[0]-nx,a[1]-ny,ZB)],(0,0,8.5)))
 cuts.append(prism([(X0-0.3,40.01,-16.5),(X0+0.3,40.01,-16.5),(X0,39.7,-16.5)],(0,0,8.2)))   # home mark
 for x in (-33,33):
-    for y in (-33,33): cuts.append(cylr(x,y,ZB-0.1,2.1,12.1))                 # M5 tap drill Ø4.2, 12 deep (10 thread)
+    for y in (-33,33): cuts.append(cylr(x,y,ZB-0.1,2.1,14.1))                 # M5 tap drill Ø4.2, 14 deep (12 thread)
 for c in cuts: F=cut(F,c)
 F=outer_edge_chamfer(unify(F),ZB,0.5)
 print('flange valid',BRepCheck_Analyzer(F).IsValid(),'solids',len(solids(F)),'mass %.0f g'%(vol(F)*2.7e-3),'(was %.0f)'%(v0*2.7e-3))
