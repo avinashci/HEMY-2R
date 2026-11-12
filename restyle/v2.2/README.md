@@ -159,3 +159,9 @@ Recessed side plates A and B and the **recessed counterweight far wall** only. T
 - **Knobs:** bought M6 knurled stainless thumb screws, ~Ø18 × 22 head with a short neck (≈25 mm proud vs ≈60 mm for the stars), on polvinc's screw axis (X −88.5).
 - **Cost plan:** JLCCNC quote the jaws in **both brass and gold/bronze-anodised aluminium**; decide on the real difference. Brass jaws can come in a later order, since the saddle pockets are the same either way.
 - To do when finalising (with the reducer screw re-layout): pocket corner radii + matching jaw radii, blind pin holes (not through), decide whether to centre the knob on the jaw (moves the thread), remove polvinc's knobs/jaws from the DOVETAIL group.
+
+### RA load budget (2026-11-12)
+- Reducers: **HBK17, 100:1** (confirmed). Rated 31 N·m, max average load 51, start/stop peak 70, momentary 143; backlash ≤ 10″; 0.65 kg each.
+- Dovetail face ≈ 0.10 m from the RA axis (102 mm in CAD), same as the Proxisky formula W × 9.8 × (0.1 + D) (Ragdoll 17 Pro limit < 40 N·m, 13 kg no CW / 20 kg with CW).
+- FRA300 Pro rig ≈ 4.5–4.8 kg, D ≈ 0.07 m → ≈ 7.5–8 N·m without CW (≈ 25% of rated). Weigh the real rig when built.
+- Commissioning: PHD2 Guiding Assistant raw RA PE test (guiding off, ~30 min near the equator) = our "PE report"; DEC backlash comp via Guiding Assistant.
