@@ -191,3 +191,10 @@ Recessed side plates A and B and the **recessed counterweight far wall** only. T
   - A short on the scope side blows only the ACC fuse, so the mount keeps tracking. Typical draw ≈ 5–7 A (mount 1–2 A + StellaVita 3–5 A); worst case ≈ 10 A.
 - Base flange: **2 jacks + 2 LEDs → 1 jack + 1 LED** (redo the flange when the LA-40B arrives). Dovetail unchanged (CH340 USB-C + 10 A ACC out). Field kit: one 10 A cable from the Jackery (check its plug rating; cheap 5.5 × 2.1 cables are often 5 A).
 - **Round Ø84 neck vs square 80 × 80: now decided by the LA-40B top plate.** The single jack fits a Ø84 flat (~26 mm needed). The plate-to-flange screws would move from the corners (r ≈ 47) to r ≈ 36; their Ø9 counterbores from below must clear the LA-40B top plate, which works if the plate is smaller than ~60 mm across where the screws sit. Measure the plate's L × W, corner radius and hole positions.
+
+### Internal cable tie-down points (wanted 2026-11-13; place during the internal wiring layout)
+- **M3 tapped blind holes on the inside faces** of the side plates, far wall and L-plate, for screw-mount cable-tie bases or nylon P-clips (cable clamps), so every lead is held along its path and kept clear of the belts and pulleys (see "belt clearance" above).
+- Depth: the panels are ~6 mm thick with a 0.8 mm outer recess, so **thread depth ≤ 3.5 mm** (drill Ø2.5 × ~4) to keep ≥ 1.5 mm of metal behind and no witness mark on the laser-marked faces. **Keep off side plate A's connector relief** (1.4 mm web) and the logo/badge areas' backs where possible.
+- Positions follow the wire paths: motor/brake leads to the board, power input → junction → fuses, ACC/USB to the DEC bore, antenna leads. Typically 2–3 per panel, ~25–40 mm apart along a run.
+- Add them to the thread drawings for JLCCNC (with the other tapped holes).
+- Buy (small): screw-mount cable-tie bases for M3 / 3–4 mm ties, a few nylon P-clips Ø5–8 mm, stainless M3 × 5–6 button heads, short cable ties.
