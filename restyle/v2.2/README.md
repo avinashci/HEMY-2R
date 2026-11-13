@@ -176,3 +176,9 @@ Recessed side plates A and B and the **recessed counterweight far wall** only. T
 - **Knob (final): knurled aluminium head D20 × 20 (shoulder Ø15 × 5, head Ø20 × 15), M6 × 40 stainless, POM tip** (AliExpress, XIN SHENG DA, × 3). Supersedes the plum knob below.
 - ~~Knob: M6 × 40 mm stainless 3-lobe "plum" clamping knob (MiaoZheng Photography Store, ~$4.34).~~ 40 mm is exactly polvinc's: knob face Y 51 to tip Y 11 leaves ≈ 5 mm before the hole bottom. **Don't use 45 mm** (bottoms out). **Knob head Ø ≤ 32 mm**: the knob axis is 17 mm from the saddle's back face plane; polvinc's Ø32.6 star clears the body face (X −71.2) by ~1 mm when DEC turns, so a bigger head hits the body.
 - Assembly (2026-11-12): DOVETAIL group now has "Dovetail jaws x2 - OPTION A BRONZE" and "... OPTION B BRASS" (same solids, overlapping: hide one) and "Dovetail clamp knobs x2 (bought: knurled Al head D20x20, M6x40 stainless, POM tip)" in place of polvinc's jaws + star knobs. Brass block concept STEP files deleted (render kept in `docs/`).
+
+### Internal wiring layout: belt clearance + bore liners (noted 2026-11-13, do when the reducer arrives)
+- No external belt cage: the belts and pulleys are already enclosed by the side plates, far wall, lid and L-plate.
+- **Belt clearance:** route and tie down every internal lead (motors, brakes, board, base MOUNT/ACC, dovetail ACC/USB) to fixed points, well clear of the 70T pulleys and belt paths. Plan it in CAD. Add a small bent-sheet or printed shield only where a lead can't be kept clear.
+- **Bore liners:** the base jack leads pass through the RA reducer's hollow input side, which spins ~100× RA speed during slews; same for the dovetail leads through the DEC bore. Check how polvinc routes these; if the wires can touch a spinning surface, add a thin plastic liner tube fixed to the non-rotating side.
+- Include the lever connectors (CMK-642, 47.6 × 15.7 × 11.2) in this layout if they're used inside.
