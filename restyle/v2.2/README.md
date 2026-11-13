@@ -182,3 +182,12 @@ Recessed side plates A and B and the **recessed counterweight far wall** only. T
 - **Belt clearance:** route and tie down every internal lead (motors, brakes, board, base MOUNT/ACC, dovetail ACC/USB) to fixed points, well clear of the 70T pulleys and belt paths. Plan it in CAD. Add a small bent-sheet or printed shield only where a lead can't be kept clear.
 - **Bore liners:** the base jack leads pass through the RA reducer's hollow input side, which spins ~100× RA speed during slews; same for the dovetail leads through the DEC bore. Check how polvinc routes these; if the wires can touch a spinning surface, add a thin plastic liner tube fixed to the non-rotating side.
 - Include the lever connectors (CMK-642, 47.6 × 15.7 × 11.2) in this layout if they're used inside.
+
+### Power: single input at the base (decided 2026-11-13)
+- **One 12 V input jack at the base** (10 A, 5.5 × 2.1, like polvinc's original single DC jack), split inside the box:
+  - Base input → **10 A main fuse** → junction (e.g. a CMK lever connector) →
+    - **~3 A fuse → mount board** (OnStepX, drivers, motors, brakes)
+    - **~8 A fuse → ACC line**, 18 AWG, up through the DEC bore → **dovetail 10 A ACC jack** → StellaVita.
+  - A short on the scope side blows only the ACC fuse, so the mount keeps tracking. Typical draw ≈ 5–7 A (mount 1–2 A + StellaVita 3–5 A); worst case ≈ 10 A.
+- Base flange: **2 jacks + 2 LEDs → 1 jack + 1 LED** (redo the flange when the LA-40B arrives). Dovetail unchanged (CH340 USB-C + 10 A ACC out). Field kit: one 10 A cable from the Jackery (check its plug rating; cheap 5.5 × 2.1 cables are often 5 A).
+- **Round Ø84 neck vs square 80 × 80: now decided by the LA-40B top plate.** The single jack fits a Ø84 flat (~26 mm needed). The plate-to-flange screws would move from the corners (r ≈ 47) to r ≈ 36; their Ø9 counterbores from below must clear the LA-40B top plate, which works if the plate is smaller than ~60 mm across where the screws sit. Measure the plate's L × W, corner radius and hole positions.
