@@ -198,3 +198,8 @@ Recessed side plates A and B and the **recessed counterweight far wall** only. T
 - Positions follow the wire paths: motor/brake leads to the board, power input → junction → fuses, ACC/USB to the DEC bore, antenna leads. Typically 2–3 per panel, ~25–40 mm apart along a run.
 - Add them to the thread drawings for JLCCNC (with the other tapped holes).
 - Buy (small): screw-mount cable-tie bases for M3 / 3–4 mm ties, a few nylon P-clips Ø5–8 mm, stainless M3 × 5–6 button heads, short cable ties.
+
+### Dovetail electronics bay cover (noted 2026-11-13; do with the dovetail rework)
+- polvinc's dovetail has a **cover plate** (in the assembly: solid 1 of "Dovetail stock DC jack + USB + PCB"): 31.6 × 25 × 5 mm (X −82.5…−77.5, Y −50…−18.4, Z 58…83), on the **body side** of the dovetail (hidden between the dovetail and the body), with a curved edge (R22.55) following the DEC reducer hub. **2 × M3** (Ø3 holes + Ø6 counterbores at Y −29.5, Z 63 / 78) thread into the dovetail floor. polvinc's PCB is mounted on it, and the cover also forms the last 5 mm of the side A wall where the connectors exit.
+- **Keep the concept for HEMY 2R:** new cover carrying the CH340 board, same 2 × M3, same position. Outside, the 10 A jack has its own tethered cap; add a silicone USB-C dust plug.
+- **Depth check (the "18 mm jack" item):** the bay is only ~12.6 mm deep in X (floor X −90 to the back face −77.4), and the 5 mm cover leaves ~7.5 mm under it. The 10 A jack's Ø12 body won't fit as is. Options: a pocket in the cover over the jack, a thinner cover there, or a deeper bay. Decide in CAD with the reducer screw re-layout.
