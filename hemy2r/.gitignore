@@ -1,0 +1,11 @@
+# Local-only working files (snapshots, archive, quotes, vendor models)
+_local/
+
+# Too large for git (> 50 MB, close to GitHub's 100 MB limit): attached to a GitHub Release instead
+concepts/v2.3-window-lid/HEMY2R v2.3 concept - window lid.step
+
+# Never needed
+*.x_t
+*.psd
+.DS_Store
+__pycache__/

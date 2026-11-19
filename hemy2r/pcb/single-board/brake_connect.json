@@ -1,0 +1,244 @@
+{
+ "external_connect": [
+  {
+   "designator": "U14",
+   "pin_number": "1",
+   "signal_name": "BRK_SW"
+  },
+  {
+   "designator": "U14",
+   "pin_number": "2",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "U14",
+   "pin_number": "3",
+   "signal_name": "BRK_FB"
+  },
+  {
+   "designator": "U14",
+   "pin_number": "4",
+   "signal_name": "VCC"
+  },
+  {
+   "designator": "U14",
+   "pin_number": "5",
+   "signal_name": "VCC"
+  },
+  {
+   "designator": "D7",
+   "pin_number": "2",
+   "signal_name": "BRK_SW"
+  },
+  {
+   "designator": "D7",
+   "pin_number": "1",
+   "signal_name": "BRK_24V"
+  },
+  {
+   "designator": "C85",
+   "pin_number": "1",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "C85",
+   "pin_number": "2",
+   "signal_name": "VCC"
+  },
+  {
+   "designator": "C87",
+   "pin_number": "1",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "C87",
+   "pin_number": "2",
+   "signal_name": "BRK_24V"
+  },
+  {
+   "designator": "R43",
+   "pin_number": "1",
+   "signal_name": "BRK_24V"
+  },
+  {
+   "designator": "R43",
+   "pin_number": "2",
+   "signal_name": "BRK_FB"
+  },
+  {
+   "designator": "R44",
+   "pin_number": "1",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "R44",
+   "pin_number": "2",
+   "signal_name": "BRK_FB"
+  },
+  {
+   "designator": "U15",
+   "pin_number": "1",
+   "signal_name": "BRK_DUTY"
+  },
+  {
+   "designator": "U15",
+   "pin_number": "2",
+   "signal_name": "BRK_DELAY"
+  },
+  {
+   "designator": "U15",
+   "pin_number": "3",
+   "signal_name": "BRK_OSC"
+  },
+  {
+   "designator": "U15",
+   "pin_number": "4",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "U15",
+   "pin_number": "5",
+   "signal_name": "BRK_COIL-"
+  },
+  {
+   "designator": "U15",
+   "pin_number": "6",
+   "signal_name": "BRK_24V"
+  },
+  {
+   "designator": "U15",
+   "pin_number": "8",
+   "signal_name": "BRK_IN"
+  },
+  {
+   "designator": "U15",
+   "pin_number": "9",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "C86",
+   "pin_number": "1",
+   "signal_name": "BRK_24V"
+  },
+  {
+   "designator": "C86",
+   "pin_number": "2",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "R45",
+   "pin_number": "1",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "R45",
+   "pin_number": "2",
+   "signal_name": "BRK_OSC"
+  },
+  {
+   "designator": "R46",
+   "pin_number": "1",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "R46",
+   "pin_number": "2",
+   "signal_name": "BRK_DUTY"
+  },
+  {
+   "designator": "C88",
+   "pin_number": "1",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "C88",
+   "pin_number": "2",
+   "signal_name": "BRK_DUTY"
+  },
+  {
+   "designator": "C89",
+   "pin_number": "1",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "C89",
+   "pin_number": "2",
+   "signal_name": "BRK_DELAY"
+  },
+  {
+   "designator": "D8",
+   "pin_number": "2",
+   "signal_name": "BRK_COIL-"
+  },
+  {
+   "designator": "D8",
+   "pin_number": "1",
+   "signal_name": "BRK_24V"
+  },
+  {
+   "designator": "J10",
+   "pin_number": "1",
+   "signal_name": "BRK_24V"
+  },
+  {
+   "designator": "J10",
+   "pin_number": "2",
+   "signal_name": "BRK_COIL-"
+  },
+  {
+   "designator": "Q1",
+   "pin_number": "1",
+   "signal_name": "BRK_B"
+  },
+  {
+   "designator": "Q1",
+   "pin_number": "2",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "Q1",
+   "pin_number": "3",
+   "signal_name": "BRK_IN"
+  },
+  {
+   "designator": "R47",
+   "pin_number": "1",
+   "signal_name": "GND"
+  },
+  {
+   "designator": "R47",
+   "pin_number": "2",
+   "signal_name": "BRK_B"
+  },
+  {
+   "designator": "R48",
+   "pin_number": "1",
+   "signal_name": "BRK_IN"
+  },
+  {
+   "designator": "R48",
+   "pin_number": "2",
+   "signal_name": "+3.3V"
+  },
+  {
+   "designator": "R49",
+   "pin_number": "1",
+   "signal_name": "M1_ENA"
+  },
+  {
+   "designator": "R49",
+   "pin_number": "2",
+   "signal_name": "BRK_B"
+  },
+  {
+   "designator": "R50",
+   "pin_number": "1",
+   "signal_name": "M1_ENA"
+  },
+  {
+   "designator": "R50",
+   "pin_number": "2",
+   "signal_name": "+3.3V"
+  }
+ ]
+}

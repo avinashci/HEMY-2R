@@ -1,0 +1,425 @@
+{
+ "add_components": [
+  {
+   "designator": "U14",
+   "value": "MT3608",
+   "block_name": "Boost 12V to 24V",
+   "search_query": "MT3608",
+   "part_uuid": "f42b51ab2afc4d9db90725b5f9dacdaa",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "SW",
+     "signal_name": "BRK_SW"
+    },
+    {
+     "pin_number": "2",
+     "name": "GND",
+     "signal_name": "GND"
+    },
+    {
+     "pin_number": "3",
+     "name": "FB",
+     "signal_name": "BRK_FB"
+    },
+    {
+     "pin_number": "4",
+     "name": "EN",
+     "signal_name": "VCC"
+    },
+    {
+     "pin_number": "5",
+     "name": "IN",
+     "signal_name": "VCC"
+    },
+    {
+     "pin_number": "6",
+     "name": "NC",
+     "signal_name": ""
+    }
+   ]
+  },
+  {
+   "designator": "D7",
+   "value": "SS34",
+   "block_name": "Boost 12V to 24V",
+   "search_query": "SS34 C8678",
+   "part_uuid": "804240ef97df427480be2a5281ccea31",
+   "pins": [
+    {
+     "pin_number": "2",
+     "name": "A",
+     "signal_name": "BRK_SW"
+    },
+    {
+     "pin_number": "1",
+     "name": "K",
+     "signal_name": "BRK_24V"
+    }
+   ]
+  },
+  {
+   "designator": "C85",
+   "value": "22uF",
+   "block_name": "Boost 12V to 24V",
+   "search_query": "CGA0805X5R226M350MT",
+   "part_uuid": "8399186da6f74547860e1334406de83d",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "GND"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "VCC"
+    }
+   ]
+  },
+  {
+   "designator": "C87",
+   "value": "22uF",
+   "block_name": "Boost 12V to 24V",
+   "search_query": "CGA0805X5R226M350MT",
+   "part_uuid": "8399186da6f74547860e1334406de83d",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "GND"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "BRK_24V"
+    }
+   ]
+  },
+  {
+   "designator": "R43",
+   "value": "82k",
+   "block_name": "Boost 12V to 24V",
+   "search_query": "0603WAF8202T5E",
+   "part_uuid": "e7430550b99b4e31a5c885b865dde147",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "BRK_24V"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "BRK_FB"
+    }
+   ]
+  },
+  {
+   "designator": "R44",
+   "value": "2.2k",
+   "block_name": "Boost 12V to 24V",
+   "search_query": "0603WAF2201T5E",
+   "part_uuid": "be60f304bdf4486e908bd15535a43c6d",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "GND"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "BRK_FB"
+    }
+   ]
+  },
+  {
+   "designator": "U15",
+   "value": "DRV103H",
+   "block_name": "Brake coil PWM driver",
+   "search_query": "DRV103H",
+   "part_uuid": "c886f6e607f348fd854ee78453d084a8",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "Duty Cycle Adj",
+     "signal_name": "BRK_DUTY"
+    },
+    {
+     "pin_number": "2",
+     "name": "Delay Adj",
+     "signal_name": "BRK_DELAY"
+    },
+    {
+     "pin_number": "3",
+     "name": "Osc Freq Adj",
+     "signal_name": "BRK_OSC"
+    },
+    {
+     "pin_number": "4",
+     "name": "GND",
+     "signal_name": "GND"
+    },
+    {
+     "pin_number": "5",
+     "name": "OUT",
+     "signal_name": "BRK_COIL-"
+    },
+    {
+     "pin_number": "6",
+     "name": "+VS",
+     "signal_name": "BRK_24V"
+    },
+    {
+     "pin_number": "7",
+     "name": "Status OK Flag",
+     "signal_name": ""
+    },
+    {
+     "pin_number": "8",
+     "name": "Input",
+     "signal_name": "BRK_IN"
+    },
+    {
+     "pin_number": "9",
+     "name": "EP",
+     "signal_name": "GND"
+    }
+   ]
+  },
+  {
+   "designator": "C86",
+   "value": "100nF",
+   "block_name": "Brake coil PWM driver",
+   "search_query": "CC0805KRX7R9BB104",
+   "part_uuid": "1fcffeacebec4bcab600894243e1bb8c",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "BRK_24V"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "GND"
+    }
+   ]
+  },
+  {
+   "designator": "R45",
+   "value": "47k",
+   "block_name": "Brake coil PWM driver",
+   "search_query": "0603WAF4702T5E",
+   "part_uuid": "b37953171ed04bc6822268db8e82ce1c",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "GND"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "BRK_OSC"
+    }
+   ]
+  },
+  {
+   "designator": "R46",
+   "value": "33k",
+   "block_name": "Brake coil PWM driver",
+   "search_query": "0603WAF3302T5E",
+   "part_uuid": "7d526eeca0714686adc6896633c4a152",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "GND"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "BRK_DUTY"
+    }
+   ]
+  },
+  {
+   "designator": "C88",
+   "value": "100pF",
+   "block_name": "Brake coil PWM driver",
+   "search_query": "CL10C101JB8NNNC",
+   "part_uuid": "8e2066dcddc04bbbaec8059659608eed",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "GND"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "BRK_DUTY"
+    }
+   ]
+  },
+  {
+   "designator": "C89",
+   "value": "100nF",
+   "block_name": "Brake coil PWM driver",
+   "search_query": "CC0603KRX7R9BB104",
+   "part_uuid": "a299e4f29fd2469688f76621c3d59c4d",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "GND"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "BRK_DELAY"
+    }
+   ]
+  },
+  {
+   "designator": "D8",
+   "value": "ES3DB",
+   "block_name": "Brake coil PWM driver",
+   "search_query": "ES3DB C64975",
+   "part_uuid": "1b2a8e26cad842f09c3494125a973787",
+   "pins": [
+    {
+     "pin_number": "2",
+     "name": "A",
+     "signal_name": "BRK_COIL-"
+    },
+    {
+     "pin_number": "1",
+     "name": "C",
+     "signal_name": "BRK_24V"
+    }
+   ]
+  },
+  {
+   "designator": "J10",
+   "value": "BRAKE COIL",
+   "block_name": "Brake coil PWM driver",
+   "search_query": "B2B-XH-A C158012",
+   "part_uuid": "4d018698282b47d4893c87aca1c32f67",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "BRK_24V"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "BRK_COIL-"
+    }
+   ]
+  },
+  {
+   "designator": "Q1",
+   "value": "MMBT3904",
+   "block_name": "Brake enable logic",
+   "search_query": "MMBT3904 C20526",
+   "part_uuid": "79a17a80cabd40719b597fdc7a56f7bb",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "B",
+     "signal_name": "BRK_B"
+    },
+    {
+     "pin_number": "2",
+     "name": "E",
+     "signal_name": "GND"
+    },
+    {
+     "pin_number": "3",
+     "name": "C",
+     "signal_name": "BRK_IN"
+    }
+   ]
+  },
+  {
+   "designator": "R47",
+   "value": "4.7k",
+   "block_name": "Brake enable logic",
+   "search_query": "0603WAF4701T5E",
+   "part_uuid": "4c1efea8e0884946a0b9422079d22f25",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "GND"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "BRK_B"
+    }
+   ]
+  },
+  {
+   "designator": "R48",
+   "value": "4.7k",
+   "block_name": "Brake enable logic",
+   "search_query": "0603WAF4701T5E",
+   "part_uuid": "4c1efea8e0884946a0b9422079d22f25",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "BRK_IN"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "+3.3V"
+    }
+   ]
+  },
+  {
+   "designator": "R49",
+   "value": "4.7k",
+   "block_name": "Brake enable logic",
+   "search_query": "0603WAF4701T5E",
+   "part_uuid": "4c1efea8e0884946a0b9422079d22f25",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "M1_ENA"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "BRK_B"
+    }
+   ]
+  },
+  {
+   "designator": "R50",
+   "value": "1k",
+   "block_name": "Brake enable logic",
+   "search_query": "0603WAF1001T5E",
+   "part_uuid": "2340647df7144fc5a30489ed06518eb5",
+   "pins": [
+    {
+     "pin_number": "1",
+     "name": "1",
+     "signal_name": "M1_ENA"
+    },
+    {
+     "pin_number": "2",
+     "name": "2",
+     "signal_name": "+3.3V"
+    }
+   ]
+  }
+ ]
+}
